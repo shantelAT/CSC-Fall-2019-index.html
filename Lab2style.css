@@ -1,0 +1,52 @@
+html {
+            width:80%;
+            padding:10px;
+            border:50px solid gray;
+            margin:20px;
+            }
+body { 
+            font: 75% georgia, sans-serif;
+            color: #555753; 
+            }
+h1,h2,h3,h4,h5,h6 { 
+            background: transparent url("http://beeinformed.org/wp-content/uploads/2011/06/Cherry_Blossom_by_HappilyInsane.jpg") no-repeat top center;
+            text-align:center;
+                        color:red;
+                        }
+p { 
+            font: italic normal 1.2em georgia, sans-serif;
+            margin-top: 10; 
+            }
+.para1 {
+            text-align:center;
+            color: #7D775C;
+}
+#para2 {
+            text-align: justify;
+            color: #7D775C;
+}
+ 
+a:link { 
+            font-weight: bold; 
+            text-decoration: none; 
+            color: #B7A5DF;
+            }
+a:visited { 
+            font-weight: bold; 
+            text-decoration: none; 
+            color: #D4CDDC;
+            }
+a:hover, a:focus, a:active { 
+            text-decoration: underline; 
+            color: #9685BA;
+            }
+
+table {    
+            background-color: #C0C0C0;
+            border: 1px solid black;    
+            width: 80%;    }
+td {    
+            border: 1px solid black;    
+            text-align: center;  
+}
+

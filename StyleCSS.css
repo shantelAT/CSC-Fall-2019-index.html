@@ -1,0 +1,54 @@
+
+Body{
+margin:10px 10px 10px 10px;
+background-image: url('web back.jpg')
+background-repeat: no-repeat;
+background: cover
+}
+
+#hd{
+background-color: white;
+border: 1px solid black;
+text-align:center;
+padding:10px 10px;
+}
+
+#lnav{
+background-color: white
+border: 1px solid black;
+float:left;
+margin:5px 5px 8px 5px
+padding: 10px
+width:500px;
+height:1000px;
+opacity:0.8;
+}
+
+#bd{
+background-color: white
+border: 1px solid black;
+margin:5px 5px 8px 5px
+padding: 10px
+width:800px;
+height:100px;
+opacity:0.8;
+}
+
+#rnav{
+background-color: white
+border: 1px solid black;
+float:right;
+margin:5px 5px 8px 5px
+padding: 10px
+width:500px;
+height:1000px;
+opacity:0.8;
+}
+
+#ft{
+background-color: white;
+border: 1px solid black;
+text-align:center;
+padding:10px 10px;
+}
+
