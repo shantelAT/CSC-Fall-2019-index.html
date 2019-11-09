@@ -47,6 +47,7 @@ border:1px solid black;
 width:35%;
 float:left;
 opacity:0.8;
+overflow:scroll;
 }
 
 #ft{
@@ -59,7 +60,6 @@ border: 1px solid black;
 text-align:left;
 position: relative;
 top:630px;
-overflow:scroll;
 }
 
 ul.hlist{
