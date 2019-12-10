@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shan's Store  | Store</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="Shop css.css" />
+        <link rel="stylesheet" href="Project 4 css.css" />
+        <script src="store.js"  async> </script>
+
+    </head>
+    <body>
+ <header>
+    <img src="afro.png" width="80px" align="left" >
+    <div class="container">
+        <div id="branding">
+         <h1>
+          <span id="hi"> Shan's </span> Hair Store 
+        </h1> 
+        </div>
+    </div>
+    <div id="links">
+        <nav>
+            <ul>
+                <li id="current"><a href="Project 4 html.html"> HOME</a> </li>
+                <li><a href="Shop html.html"> STORE </a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!--Showcase starts Here-->
+
+ <section id="showcase">
+    <div id="container">
+        <h2>Affordable and Professional Wigs</h2><br>
+        <p>  We know you want to look your best, on a budget. That is why <span id="hi"> Shan's Hairstore</span><br/><br/> provide the best quality yet affordable wigs around.<br><br>
+        <h3><i> Your hair is your crown! Wear it well!</i></h3>
+        </p>
+    </div>
+ </section>
+
+ <!-- Shop Starts Here-->
+  
+<div id="body">
+    <div id="title"> <h1> Beautiful Brazilian Wigs Collection </h1></div>
+    <section class="boxes">
+        <div class="container">
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Brazilian Body Wave</span>
+                    <img class="shop-item-image" src="body wave.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price"> $210.00 </span>
+                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Brazilian Kinky Curly</span>
+                    <img class="shop-item-image" src="Kinky curly.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$140.00</span>
+                        
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Brazilian Straight</span>
+                    <img class="shop-item-image" src="straight hair.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$250.00</span>                      
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                 <div class="shop-item">
+                    <span class="shop-item-title">Brazilian Bob Cut</span>
+                    <img class="shop-item-image" src="straight_bob.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$180.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                 <div class="shop-item">
+                    <span class="shop-item-title">Brazilian Loose Curl</span>
+                    <img class="shop-item-image" src="loose_deep_2.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$200.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                 <div class="shop-item">
+                    <span class="shop-item-title">Brazilian Pixie Cut </span>
+                    <img class="shop-item-image" src="pixie cut.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$150.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+                <!----CART starts HERE---->
+
+        <section class="boxes">
+            <div id="title"><h1> SHOPPING CART</h1></div>
+        <div class="container">
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+
+<!--Wallet Starts Here-->
+
+    <div id="Wallet">
+            <h3>Wallet</h3>
+            <input type="text" id="inputvalue" >
+
+             <button type="button" onclick="shantelwallet()" id="button">  ADD CASH </button>
+
+             <h3> Wallet Balance: $<span id="balances">0</span> <span id=walletBalance> </span></h3>
+     </div>  
+
+ <!-- Wallet Ends Here-->
+
+            <button class="btn btn-primary btn-purchase" type="button" onclick="shantelpurchase()">PURCHASE</button>
+        </div>
+        </section>
+    
+</div>
+
+
+<!---- Receipt ---->
+
+<div id="receipt">
+
+</div>
+
+<!-- Footer Starts Here-->
+
+    <footer>
+        <p> Shantel's Hair Store, copywright &copy; </p>
+    </footer>
+
+ </body>
+</html>
